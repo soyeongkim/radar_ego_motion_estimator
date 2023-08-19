@@ -1,0 +1,8 @@
+
+<launch>
+    <node pkg="radar_ego_motion_estimation" type="radar_ego_motion_estimation" name="radar_ego_motion_estimation" output="screen">
+        <param name="s_input_points_"              value="/afi910_cloud_node/cloud"/>
+        <param name="d_vehicle_length_r_m_"            value="3.7"/>
+        <param name="str_radar_ego_motion_ini_path"        value="$(find radar_ego_motion_estimation)/config/radar_ego_motion_estimation.ini"/>
+    </node>
+</launch>
