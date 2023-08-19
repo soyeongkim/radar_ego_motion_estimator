@@ -45,6 +45,7 @@ static RadarPointCloudType toRadarPointCloudType(const Vector11& item, const Rad
   return point;
 }
 
+// Added!!!!!!!
 bool RadarEgoVelocityEstimator::Init(std::string ini_path)
 {
     if (m_ini_handler.Init(ini_path.c_str()) == false)
@@ -53,7 +54,7 @@ bool RadarEgoVelocityEstimator::Init(std::string ini_path)
         return false;
     return true;
 }
-
+// Added!!!!!!!
 bool RadarEgoVelocityEstimator::ParseINI()
 {
     if(m_ini_handler.IsFileUpdated() == false)

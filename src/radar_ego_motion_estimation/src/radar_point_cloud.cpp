@@ -19,7 +19,7 @@
 
 using namespace reve;
 
-// clang-format off
+// Modified!!!! (AFI910)
 POINT_CLOUD_REGISTER_POINT_STRUCT(RadarPointCloudType,
                                   (float, x, x)
                                   (float, y, y)
