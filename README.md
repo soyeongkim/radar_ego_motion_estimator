@@ -6,6 +6,8 @@ The published nav_msgs::Odometry in this code can be visualized using tools like
 
 <img src="./plot_juggler_example.png" width="600">
 
+- Radar point cloud fields : x, y, z, vel, power
+
 ### Compile
 ```bash
 git clone https://github.com/soyeongkim/radar_ego_motion_estimator.git
