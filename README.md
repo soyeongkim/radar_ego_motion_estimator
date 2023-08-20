@@ -3,11 +3,13 @@
 This package takes radar point cloud as input and estimates the motion of the ego vehicle. This code is derived from 'reve' below and is built using catkin_make to directly estimate ego motion. It also includes the feature to tune various parameters in radar_ego_motion_estimation.ini. 
 
 The published nav_msgs::Odometry in this code can be visualized using tools like PlotJuggler to verify the proper functioning of the current algorithm!
+
 <img src="./plot_juggler_example.png" width="600">
 
 ### Compile
 ```bash
 git clone https://github.com/soyeongkim/radar_ego_motion_estimator.git
+cd radar_ego_motion_estimation
 catkin_make
 ```
 
