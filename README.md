@@ -9,7 +9,7 @@ The published nav_msgs::Odometry in this code can be visualized using tools like
 ### Compile
 ```bash
 git clone https://github.com/soyeongkim/radar_ego_motion_estimator.git
-cd radar_ego_motion_estimation
+cd radar_ego_motion_estimator
 catkin_make
 ```
 
